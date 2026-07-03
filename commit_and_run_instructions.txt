@@ -1,0 +1,17 @@
+Run the Streamlit app (from project root):
+
+python -m streamlit run app.py
+
+If you want a specific port:
+
+python -m streamlit run app.py --server.port 8501
+
+To commit the changes (Git must be installed):
+
+git status
+git add -A
+git commit -m "chore: replace deprecated use_container_width with width; add SYSTEM LAST SNAPSHOT to home.py; handle NaNs"
+
+If Git is not installed, install it from https://git-scm.com/downloads and then run the commands above.
+
+If you prefer applying a patch file instead, let me know and I'll generate a unified diff file you can apply with `git apply`.
