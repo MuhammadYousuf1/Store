@@ -8,7 +8,7 @@ def render_home() -> None:
     st.markdown(
         """
         <div style='padding: 18px 0 10px 0; text-align: center;'>
-            <h1 style='margin:0; font-size: 44px; letter-spacing: 0.02em; color:#ffffff;'>WELCOME TO SOFT-RAPIDO WIRELESS</h1>
+                <h1 style='margin:0; font-size: 44px; letter-spacing: 0.02em; color:#ffffff;'>WELCOME TO SALES DASHBOARD</h1>
             <p style='margin:8px 0 0 0; font-size: 16px; color:#d8d8ff;'>
                 Welcome to the Dashboard Hub. Select a page preview card below to explore.
             </p>
